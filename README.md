@@ -108,7 +108,7 @@ Are younger patients more likely to miss appointments?
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/joniarroba/noshowappointments) (free account required) and save the CSV in this folder as `noshowappointments.csv` (the download may be named `KaggleV2-May-2016.csv`; rename it).
 2. Install the dependencies:
    ```bash
-   pip install pandas numpy matplotlib seaborn
+   pip install -r requirements.txt
    ```
 3. Run the analysis (SQLite is built into Python, so no database setup is needed):
    ```bash
